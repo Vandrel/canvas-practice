@@ -1,0 +1,13 @@
+.info-box {
+	height: 4%;
+	margin-left: 20px;
+	padding: 8% 5% 0% 5%;
+	border: 5px solid blue;
+	border-radius: 15%;
+}
+
+
+
+.char-info {
+	display: inline-flex;
+}
