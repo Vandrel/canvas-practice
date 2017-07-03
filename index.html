@@ -6,24 +6,32 @@
         <script src='scripts/jquery-3.2.1.min.js'></script>
         <script src='scripts/jquery-ui.min.js'></script>
         <script src='scripts/main.js'></script>
+        <script src='scripts/levels.js'></script>
+        <link href="https://fonts.googleapis.com/css?family=Fresca" rel="stylesheet"> 
     </head>
     <body>
         <div class='container-fluid'>
 	        <div class='row'>
+	        	<div class='overlay'>
+		        	<div class='login'>
+			        	<p>Username:</p>
+			        	<input id='username'>
+			        	<p>Password</p>
+			        	<input type='password' id='password'>
+			        	<br>
+			        	<br>
+			        	<button id='submit'>Submit</button>
+			        </div>
+			        <div class='reset_newacc'>
+			        	<a href='#'>Create account</a>
+			        	<br>
+			        	<a href='#'>Forgotten password?</a>
+			        </div>
+		        </div>
 		        <div class='game-box'>
 			        <canvas id='game'></canvas>
 		        </div>
 	        </div>
-	        <div class='row'>
-	        	<div class='char-info'>
-		        	<div id='health-box' class='info-box text-center'>
-		        		Health: <p id='health'>100/100</p>
-		        	</div>
-		        	<div id='mana-box' class='info-box text-center'>
-		        		Mana: <p id='mana'>68/100</p>
-		        	</div>
-        		</div>
-        	</div>
         </div>
     </body>
 </html>
