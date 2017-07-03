@@ -41,7 +41,7 @@
 }
 
 .overlay{
-	background-color: rgba(158, 170, 188, 0.5);
+	background-color: rgba(158, 170, 188, 0.3);
 	position: absolute;
 	z-index: 1;
 	height: 98.5vh;
