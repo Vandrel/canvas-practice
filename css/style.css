@@ -11,3 +11,7 @@
 .char-info {
 	display: inline-flex;
 }
+
+#game {
+    z-index: 100;
+}
